@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Shopping cart{% endblock %}
+
+{% block content %}
+<h2>Shopping cart</h2>
+
+{% if cart.items.all %}
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th>photo</th>
+            <th>product</th>
+            <th>quantity</th>
+            <th>price</th>
+            <th>total</th>
+            <th>actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in cart.items.all %}
+        <tr>
+            <td>
+                <img src="{% if item.product.image %}{{ item.product.image.url }}{% else %}{% static 'img/no_image.png' %}{% endif %}" 
+                     alt="{{ item.product.name }}" width="50">
+            </td>
+            <td>{{ item.product.name }}</td>
+            <td>{{ item.quantity }}</td>
+            <td>{{ item.product.price }} $</td>
+            <td>{{ item.total_price }} $</td>
+            <td>
+                <form action = "{% url 'cart:cart_remove' item.product.id %}" method = "post">
+                    {% csrf_token %}
+                    <button type = "submit" class = "btn btn-danger btn-sm">Delete</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan = "4"><strong>Total price</strong></td>
+            <td colspan = "2"><strong>{{ cart.total_price }} $</strong></td>
+        </tr>
+    </tfoot>
+</table>
+
+<div class = "d-flex justify-content-between">
+    <a href = "{% url 'products:product_list' %}" class = "btn btn-secondary">Continue Shopping</a>
+    <a href = "{% url 'orders:order_create' %}" class = "btn btn-success">Confirm Order</a>
+</div>
+{% else %}
+<div class = "alert alert-info text-center">
+    <h4>Cart empty</h4>
+    <p>Dont add any product to cart yet .</p>
+    <a href = "{% url 'products:product_list' %}" class = "btn btn-primary">Display products</a>
+</div>
+{% endif %}
+{% endblock %}

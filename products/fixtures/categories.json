@@ -1,0 +1,62 @@
+[
+  {
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+      "name": "Devices",
+      "slug": "devices",
+      "name_ar": "أجهزة",
+      "name_en": "Devices"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+      "name": "Laptops",
+      "slug": "laptop",
+      "name_ar": "لابتوبات",
+      "name_en": "Laptop"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+      "name": "Headphones",
+      "slug": "headphones",
+      "name_ar": "سماعات رأس",
+      "name_en": "Headphones"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+      "name": "Smart-Watches",
+      "slug": "smart-watches",
+      "name_ar": "ساعات رقمية",
+      "name_en": "Smart Watches"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 5,
+    "fields": {
+      "name": "Complete-PC-Systems",
+      "slug": "complete-pc-systems",
+      "name_ar": "منظومات كمبيوتر",
+      "name_en": "PC"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 6,
+    "fields": {
+      "name": "Cameras",
+      "slug": "cameras",
+      "name_ar": "كاميرات",
+      "name_en": "cameras"
+    }
+  }
+]

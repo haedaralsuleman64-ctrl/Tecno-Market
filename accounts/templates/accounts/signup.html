@@ -1,0 +1,181 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}TEcNO Market - Sign up{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/accounts.css' %}">
+<link rel="stylesheet" href="{% static 'css/social_buttons.css' %}">
+{% endblock css %}
+
+{% block content %}
+<div class="auth-container">
+    <!-- اللوجو في الزاوية اليمنى العليا -->
+    <div class="auth-logo">
+        <div class="logo-circle">
+            <span class="logo-text">TM</span>
+        </div>
+    </div>
+
+    
+    
+    <div class="auth-card">
+         <!-- زر تبديل الوضع داخل البطاقة -->
+        <div class="auth-theme-toggle-inner">
+            <button id="themeToggle" class="btn btn-theme-toggle-inner" aria-label="Toggle theme">
+                <i class="bi bi-sun-fill light-icon"></i>
+                <i class="bi bi-moon-fill dark-icon"></i>
+            </button>
+        </div>
+
+        <!-- شريط العنوان -->
+        <div class="auth-header">
+            <h2><i class="bi bi-person-plus"></i> Create Account</h2>
+            <p>Join our store and enjoy a unique shopping experience🤩</p>
+        </div>
+
+        <!-- رسائل التنبيه -->
+        {% if form.errors %}
+        <div class="alert alert-danger">
+            <i class="bi bi-exclamation-triangle"></i>
+            Please correct errors in the form.
+        </div>
+        {% endif %}
+
+        <!-- نموذج التسجيل -->
+        <form method="post" class="auth-form" novalidate>
+            {% csrf_token %}
+            
+            <div class="row">
+                <!-- اسم المستخدم -->
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label for="username"><i class="bi bi-person"></i>User name</label>
+                        <input type="text" id="username" name="username" 
+                               class="form-control {% if form.username.errors %}is-invalid{% endif %}"
+                               value="{{ form.username.value|default:'' }}" required placeholder="choise username">
+                        {% for error in form.username.errors %}
+                        <div class="invalid-feedback">{{ error }}</div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            <!-- البريد الإلكتروني -->
+            <div class="form-group">
+                <label for="email"><i class="bi bi-envelope"></i>E-mail</label>
+                <input type="email" id="email" name="email" 
+                       class="form-control {% if form.email.errors %}is-invalid{% endif %}"
+                       value="{{ form.email.value|default:'' }}" placeholder="example@email.com" required>
+                {% for error in form.email.errors %}
+                <div class="invalid-feedback">{{ error }}</div>
+                {% endfor %}
+            </div>
+
+            <!-- كلمة المرور -->
+            <div class="form-group">
+                <label for="password1"><i class="bi bi-lock"></i>Password</label>
+                <div class="password-input">
+                    <input type="password" id="password1" name="password1" 
+                           class="form-control {% if form.password1.errors %}is-invalid{% endif %}" 
+                           placeholder="choise password" required>
+                    <button type="button" class="password-toggle">
+                        <i class="bi bi-eye"></i>
+                    </button>
+                </div>
+                {% for error in form.password1.errors %}
+                <div class="invalid-feedback">{{ error }}</div>
+                {% endfor %}
+                <small class="form-text text-muted">. The password must contain at least 8 characters</small>
+            </div>
+
+            <!-- تأكيد كلمة المرور -->
+            <div class="form-group">
+                <label for="password2">Confirm password</label>
+                <div class="password-input">
+                    <input type="password" id="password2" name="password2" 
+                           class="form-control {% if form.password2.errors %}is-invalid{% endif %}" 
+                           placeholder="Re-enter your password" required>
+                    <button type="button" class="password-toggle">
+                        <i class="bi bi-eye"></i>
+                    </button>
+                </div>
+                {% for error in form.password2.errors %}
+                <div class="invalid-feedback">{{ error }}</div>
+                {% endfor %}
+            </div>
+
+            <!-- اتفاقية الخدمة -->
+            <div class="form-group" dir="ltr">
+                <div class="form-check">
+                    <input type="checkbox" id="agree_to_terms" name="agree_to_terms" 
+                           class="form-check-input {% if form.agree_to_terms.errors %}is-invalid{% endif %}" required>
+                           {% if form.agree_to_terms.value %} checked {% endif %}
+                            <label for="terms" class="form-check-label">   I agree to 
+                                <a href="#" class="text-decoration-none" class="text-white" data-bs-toggle="modal" data-bs-target="#termsModal">Terms and Conditions</a> 
+                                and <a href="#" class="text-decoration-none" class="text-white" data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy Policy</a>
+                            </label>
+                    {% for error in form.terms.errors %}
+                    <div class="invalid-feedback">{{ error }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- زر إنشاء الحساب -->
+            <button type="submit" class="btn btn-success btn-auth">
+                <i class="bi bi-person-check"></i> Create Account
+            </button>
+            
+            <!-- فاصل -->
+            <div class="auth-separator">
+                <center><span>or sign up with</span><center/>
+            </div>
+            
+            <!-- أزرار التسجيل عبر السوشيال ميديا -->
+            <div class="social-auth-container">
+                <div class="social-buttons">
+                    <a href="{% url 'social_auth:google_login' %}" class="btn-social btn-google" onclick="googleLogin()">
+                        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" class="social-icon">
+                            Google
+                    </a>
+                </div>
+            </div>
+
+        </form>
+
+        <!-- رابط تسجيل الدخول -->
+        <div class="auth-footer">
+            <p>You already have an account?<a href="{% url 'accounts:login' %}"> Sign in here </a></p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}
+<script src="{% static 'js/accounts.js' %}"></script>
+<script>
+// تفعيل/تعطيل زر التسجيل بناءً على حالة checkbox
+document.addEventListener('DOMContentLoaded', function() {
+    const termsCheckbox = document.getElementById('agree_to_terms');
+    const submitButton = document.getElementById('submitButton');
+    const signupForm = document.getElementById('signupForm');
+    
+    // تعطيل الزر في البداية
+    submitButton.disabled = true;
+    
+    // عند تغيير حالة checkbox
+    termsCheckbox.addEventListener('change', function() {
+        submitButton.disabled = !this.checked;
+    });
+    
+    // منع الإرسال إذا لم يتم اختيار الموافقة
+    signupForm.addEventListener('submit', function(e) {
+        if (!termsCheckbox.checked) {
+            e.preventDefault();
+            alert('يجب الموافقة على الشروط والأحكام وسياسة الخصوصية قبل المتابعة');
+            termsCheckbox.focus();
+        }
+    });
+});
+</script>
+{% endblock %}

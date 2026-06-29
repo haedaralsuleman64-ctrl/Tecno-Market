@@ -1,0 +1,57 @@
+/* تنسيقات مخصصة للمتجر */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.featured-products {
+    padding: 50px 0;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.product-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.quantity-input {
+    width: 60px;
+}
+
+/* تنسيقات للعربية */
+.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+/* تنسيقات للهواتف */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    
+    .product-card {
+        margin-bottom: 20px;
+    }
+}

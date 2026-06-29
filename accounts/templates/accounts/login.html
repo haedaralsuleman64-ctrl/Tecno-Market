@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}TEcNO Market - Sign in{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/accounts.css' %}">
+<link rel="stylesheet" href="{% static 'css/social_buttons.css' %}">
+{% endblock css %}
+
+{% block content %}
+<div class="auth-container">
+    <!-- اللوجو في الزاوية اليمنى العليا -->
+    <div class="auth-logo">
+        <div class="logo-circle">
+            <span class="logo-text">TM</span>
+        </div>
+    </div>
+    
+    <div class="auth-card">
+        <!-- زر تبديل الوضع داخل البطاقة -->
+        <div class="auth-theme-toggle-inner">
+            <button id="themeToggle" class="btn btn-theme-toggle-inner" aria-label="Toggle theme">
+                <i class="bi bi-sun-fill light-icon"></i>
+                <i class="bi bi-moon-fill dark-icon"></i>
+            </button>
+        </div>
+
+        <!-- شريط العنوان -->
+        <div class="auth-header">
+            <h2><i class="bi bi-person-circle"></i>Sign in</h2>
+            <p>Welcome back 🥳 Please log in to your account </p>
+        </div>
+
+        <!-- رسائل التنبيه -->
+        {% if messages %}
+        <div class="alert-container">
+            {% for message in messages %}
+            <div class="alert alert-{{ message.tags }} alert-dismissible fade show">
+                {{ message }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- نموذج تسجيل الدخول -->
+        <form method="post" class="auth-form">
+            {% csrf_token %}
+           
+            <!-- اسم المستخدم -->
+            <div class="form-group">
+                <label for="username"><i class="bi bi-person"></i>User name</label>
+                <input type="text" id="username" name="username" class="form-control" 
+                       placeholder="Enter username" required autofocus>
+            </div>
+
+            <!-- كلمة المرور -->
+            <div class="form-group">
+                <label for="password"><i class="bi bi-lock"></i>Password</label>
+                <div class="password-input">
+                    <input type="password" id="password" name="password" 
+                           class="form-control" placeholder="Enter password" required>
+                    <button type="button" class="password-toggle">
+                        <i class="bi bi-eye"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- تذكرني ونسيت كلمة المرور -->
+            <div class="form-options">
+                <div class="form-check">
+                    <input type="checkbox" id="remember" name="remember" class="form-check-input">
+                    <label for="remember" class="form-check-label">Remember me</label>
+                </div>
+                <a href="{% url 'accounts:password_reset' %}" class="text-muted small">? Forget password</a>
+            </div>
+
+            <!-- زر تسجيل الدخول -->
+            <button type="submit" class="btn btn-primary btn-auth">
+                <i class="bi bi-box-arrow-in-right"></i> Sign in 
+            </button>
+            
+            <!-- فاصل -->
+            <div class="auth-separator">
+                <center><span>or continue with</span><center/><br>
+            </div>
+            
+            <!-- أزرار التسجيل عبر السوشيال ميديا -->
+            <div class="social-auth-container">
+                <div class="social-buttons">
+                    <a href="{% url 'social_auth:google_login' %}" class="btn-social btn-google" onclick="googleLogin()">
+                        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" class="social-icon">
+                            Google
+                    </a>
+                </div>
+            </div>
+
+        </form>
+
+        <!-- رابط التسجيل -->
+        <div class="auth-footer">
+            <p>You don't have an account !<a href="{% url 'accounts:signup' %}"> Create a new account 😉</a></p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}
+<script src="{% static 'js/accounts.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,15 @@
+<div class="cart-add-form">
+    {{ form.quantity.label_tag }}
+    {{ form.quantity }}
+    {{ form.override }}
+    
+    {% if product_id %}
+        <input type = "hidden" name = "product_id" value = "{{ product_id }}">
+    {% endif %}
+    
+    {% if form.errors %}
+        <div class = "error">
+            {{ form.errors }}
+        </div>
+    {% endif %}
+</div>

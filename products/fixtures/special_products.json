@@ -1,0 +1,512 @@
+[
+  {
+    "model": "products.product",
+    "pk": 101,
+    "fields": {
+      "category": 2,
+      "name": "MacBook Pro 16-inch M2 Pro",
+      "slug": "macbook-pro-16-m2-pro",
+      "description": "لابتوب MacBook Pro 16 بمعالج M2 Pro، شاشة Liquid Retina XDR، 16GB RAM، 1TB SSD - الأداء المثالي للمحترفين",
+      "price": "2499.99",
+      "available": true,
+      "stock": 8,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1658915370148-0cfed8929e92?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fE1hY0Jvb2slMjBQcm8lMjAxNiUyMGluY2glMjBNMiUyMFByb3xlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2024-01-15T10:00:00Z",
+      "updated": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 102,
+    "fields": {
+      "category": 2,
+      "name": "Dell XPS 15 OLED",
+      "slug": "dell-xps-15-oled",
+      "description": "لابتوب Dell XPS 15 بشاشة OLED 4K، معالج Intel i7-13700H، 32GB RAM، RTX 4060 - تجربة بصرية استثنائية",
+      "price": "2199.99",
+      "available": true,
+      "stock": 6,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1661961110144-12ac85918e40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYxfHxEZWxsJTIwWFBTJTIwMTUlMjBPTEVEfGVufDB8fDB8fHww",
+      "created": "2024-01-15T10:05:00Z",
+      "updated": "2024-01-15T10:05:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 103,
+    "fields": {
+      "category": 2,
+      "name": "HP Spectre x360 14",
+      "slug": "hp-spectre-x360-14",
+      "description": "لابتوب قابل للتحويل بشاشة OLED 2.8K، معالج Intel i7-1355U، 16GB RAM، 1TB SSD - الأناقة والأداء",
+      "price": "1499.99",
+      "available": true,
+      "stock": 12,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1566573939866-05b7a236003a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fEhQJTIwU3BlY3RyZSUyMHgzNjAlMjAxNCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2024-01-15T10:10:00Z",
+      "updated": "2024-01-15T10:10:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 104,
+    "fields": {
+      "category": 2,
+      "name": "Lenovo Yoga 9i",
+      "slug": "lenovo-yoga-9i",
+      "description": "لابتوب 2-in-1 بشاشة 4K، معالج Intel i7-1360P، 16GB RAM، 512GB SSD - متعدد الاستخدامات",
+      "price": "1399.99",
+      "available": true,
+      "stock": 10,
+      "is_approved": true,
+      "image_url": "https://plus.unsplash.com/premium_photo-1681486766443-b162f69b9ab1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fExlbm92byUyMFlvZ2ElMjA5aSUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2024-01-15T10:15:00Z",
+      "updated": "2024-01-15T10:15:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 105,
+    "fields": {
+      "category": 2,
+      "name": "ASUS ROG Zephyrus G14",
+      "slug": "asus-rog-zephyrus-g14",
+      "description": "لابتوب ألعاب قوي بشاشة 120Hz، معالج AMD Ryzen 9، RTX 4060، 16GB RAM - للألعاب والإبداع",
+      "price": "1599.99",
+      "available": true,
+      "stock": 7,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1509252086397-bc63a98646b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fEFTVVMlMjBST0clMjBaZXBoeXJ1cyUyMEcxNCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2024-01-15T10:20:00Z",
+      "updated": "2024-01-15T10:20:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 106,
+    "fields": {
+      "category": 2,
+      "name": "Samsung Galaxy Tab S9 Ultra",
+      "slug": "samsung-galaxy-tab-s9-ultra",
+      "description": "تابلت بشاشة 14.6 بوصة، معالج Snapdragon 8 Gen 2، 12GB RAM، 512GB - الإبداع بدون حدود",
+      "price": "1199.99",
+      "available": true,
+      "stock": 15,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1724323184361-539f7d8b3b01?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTcyfHxTYW1zdW5nJTIwR2FsYXh5JTIwVGFiJTIwUzklMjBVbHRyYXxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2024-01-15T10:25:00Z",
+      "updated": "2024-01-15T10:25:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 107,
+    "fields": {
+      "category": 2,
+      "name": "iPad Pro 12.9 M2",
+      "slug": "ipad-pro-12-9-m2",
+      "description": "تابلت iPad Pro بشاشة Liquid Retina XDR، معجب M2، 1TB، دعم Apple Pencil - القوة والإبداع",
+      "price": "1499.99",
+      "available": true,
+      "stock": 9,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/flagged/photo-1557050406-b3d281ecde9b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGlQYWQlMjBQcm8lMjAxMi45JTIwTTJ8ZW58MHx8MHx8fDA%3D",
+      "created": "2024-01-15T10:30:00Z",
+      "updated": "2024-01-15T10:30:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 108,
+    "fields": {
+      "category": 2,
+      "name": "Microsoft Surface Pro 9",
+      "slug": "microsoft-surface-pro-9",
+      "description": "تابلت Surface Pro 9 بشاشة 13 بوصة، معجب Intel i7، 16GB RAM، 256GB SSD - العمل بالإبداع",
+      "price": "1299.99",
+      "available": true,
+      "stock": 11,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1753841007669-74d0c8005ee0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fE1pY3Jvc29mdCUyMFN1cmZhY2UlMjBQcm8lMjA5fGVufDB8fDB8fHww",
+      "created": "2024-01-15T10:35:00Z",
+      "updated": "2024-01-15T10:35:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 109,
+    "fields": {
+      "category": 5,
+      "name": "منظومة كمبيوتر Gaming Pro",
+      "slug": "gaming-pc-pro",
+      "description": "منظومة كمبيوتر كاملة: معجب Intel i7-13700K، كرت شاشة RTX 4070، 32GB RAM، 1TB SSD - للألعاب والمونتاج",
+      "price": "1899.99",
+      "available": true,
+      "stock": 5,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1636488363148-818c08eec89e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fCVEOSU4NSVEOSU4NiVEOCVCOCVEOSU4OCVEOSU4NSVEOCVBOSUyMCVEOSU4MyVEOSU4NSVEOCVBOCVEOSU4QSVEOSU4OCVEOCVBQSVEOCVCMSUyMEdhbWluZyUyMFByb3xlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2024-01-15T10:40:00Z",
+      "updated": "2024-01-15T10:40:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 110,
+    "fields": {
+      "category": 5,
+      "name": "منظومة كمبيوتر محترفة للعمل",
+      "slug": "professional-work-pc",
+      "description": "منظومة كمبيوتر متكاملة: معجب AMD Ryzen 9، 64GB RAM، 2TB SSD، كرت شاشة RTX 4060 - مثالية للمصممين والمبرrogrammers",
+      "price": "2199.99",
+      "available": true,
+      "stock": 4,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1639506059563-6910293262f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fCVEOSU4NSVEOSU4NiVEOCVCOCVEOSU4OCVEOSU4NSVEOCVBOSUyMCVEOSU4MyVEOSU4NSVEOCVBOCVEOSU4QSVEOSU4OCVEOCVBQSVEOCVCMSUyMCVEOSU4NSVEOCVBRCVEOCVBQSVEOCVCMSVEOSU4MSVEOCVBOSUyMCVEOSU4NCVEOSU4NCVEOCVCOSVEOSU4NSVEOSU4NHxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2024-01-15T10:45:00Z",
+      "updated": "2024-01-15T10:45:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 111,
+    "fields": {
+      "category": 5,
+      "name": "منظومة كمبيوتر ميزانية متوسطة",
+      "slug": "mid-budget-pc",
+      "description": "منظومة كمبيوتر كاملة بأفضل سعر: معجب Intel i5-13400، 16GB RAM، 512GB SSD، كرت شاشة GTX 1660 - أداء ممتاز للسعر",
+      "price": "899.99",
+      "available": true,
+      "stock": 8,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1665968619277-359eff9988d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fCVEOSU4NSVEOSU4NiVEOCVCOCVEOSU4OCVEOSU4NSVEOCVBOSUyMCVEOSU4MyVEOSU4NSVEOCVBOCVEOSU4QSVEOSU4OCVEOCVBQSVEOCVCMSUyMCVEOSU4NSVEOSU4QSVEOCVCMiVEOCVBNyVEOSU4NiVEOSU4QSVEOCVBOSUyMCVEOSU4NSVEOCVBQSVEOSU4OCVEOCVCMyVEOCVCNyVEOCVBOXxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2024-01-15T10:50:00Z",
+      "updated": "2024-01-15T10:50:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 112,
+    "fields": {
+      "category": 5,
+      "name": "منظومة كمبيوتر صغيرة Mini ITX",
+      "slug": "mini-itx-pc",
+      "description": "منظومة كمبيوتر مدمجة بحجم صغير: معجب AMD Ryzen 7، 32GB RAM، 1TB SSD، كرت شاشة RTX 4060 - قوة في حجم صغير",
+      "price": "1599.99",
+      "available": true,
+      "stock": 6,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1563486299190-d415ab26e837?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fCVEOSU4NiVEOCVCOCVEOSU4OCVEOSU4NSVEOCVBOSUyMCVEOSU4MyVEOSU4NSVEOCVBOCVEOSU4QSVEOSU4OCVEOCVBQSVEOCVCMSUyMCVEOCVCNSVEOCVCQSVEOSU4QSVEOCVCMSVEOCVBOSUyME1pbmklMjBJVFh8ZW58MHx8MHx8fDA%3D",
+      "created": "2024-01-15T10:55:00Z",
+      "updated": "2024-01-15T10:55:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 113,
+    "fields": {
+      "category": 2,
+      "name": "Acer Predator Helios 300",
+      "slug": "acer-predator-helios-300",
+      "description": "لابتوب ألعاب بشاشة 144Hz، معجب Intel i7-12700H، كرت شاشة RTX 4060، 16GB RAM - للألعاب الثقيلة",
+      "price": "1399.99",
+      "available": true,
+      "stock": 9,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1569441508845-c6da9a35924c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA3fHxBY2VyJTIwUHJlZGF0b3IlMjBIZWxpb3MlMjAzMDB8ZW58MHx8MHx8fDA%3D",
+      "created": "2024-01-15T11:00:00Z",
+      "updated": "2024-01-15T11:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 114,
+    "fields": {
+      "category": 2,
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "slug": "lenovo-thinkpad-x1-carbon",
+      "description": "لابتوب أعمال خفيف الوزن، معجب Intel i7-1360P، 16GB RAM، 512GB SSD - الموثوقية والأداء",
+      "price": "1699.99",
+      "available": true,
+      "stock": 7,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1626890870463-9ce3b755f98c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGVub3ZvJTIwVGhpbmtQYWQlMjBYMSUyMENhcmJvbnxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2024-01-15T11:05:00Z",
+      "updated": "2024-01-15T11:05:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 115,
+    "fields": {
+      "category": 2,
+      "name": "MSI Katana 15",
+      "slug": "msi-katana-15",
+      "description": "لابتوب ألعاب بشاشة 144Hz، معجب Intel i5-12450H، كرت شاشة RTX 4050، 16GB RAM - قيمة مذهلة للألعاب",
+      "price": "999.99",
+      "available": true,
+      "stock": 12,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1589913649361-56d3f8762bc7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fE1TSSUyMEthdGFuYSUyMDE1JTIwbGFwdG9wfGVufDB8fDB8fHww",
+      "created": "2024-01-15T11:10:00Z",
+      "updated": "2024-01-15T11:10:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 116,
+    "fields": {
+      "category": 5,
+      "name": "منظومة كمبيوتر Streaming",
+      "slug": "streaming-pc",
+      "description": "منظومة كمبيوتر مخصصة للبث: معجب AMD Ryzen 7، 32GB RAM، 1TB SSD، كرت شاشة RTX 4060 - البث بجودة عالية",
+      "price": "1799.99",
+      "available": true,
+      "stock": 5,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1653823815301-faf2f30db0bd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fCVEOSU4NiVEOCVCOCVEOSU4OCVEOSU4NSVEOCVBOSUyMCVEOSU4MyVEOSU4NSVEOCVBOCVEOSU4QSVEOSU4OCVEOCVBQSVEOCVCMSUyMFN0cmVhbWluZ3xlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2024-01-15T11:15:00Z",
+      "updated": "2024-01-15T11:15:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 117,
+    "fields": {
+      "category": 5,
+      "name": "منظومة كمبيوتر AI والمهام الثقيلة",
+      "slug": "ai-workstation-pc",
+      "description": "منظومة كمبيوتر للمهام الثقيلة: معجب AMD Ryzen 9، 64GB RAM، 2TB SSD، كرت شاشة RTX 4080 - الذكاء الاصطناعي والتطوير",
+      "price": "2899.99",
+      "available": true,
+      "stock": 3,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=500&h=300&fit=crop",
+      "created": "2024-01-15T11:20:00Z",
+      "updated": "2024-01-15T11:20:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 118,
+    "fields": {
+      "category": 2,
+      "name": "Huawei MatePad Pro 13.2",
+      "slug": "huawei-matepad-pro-13-2",
+      "description": "تابلت بشاشة 13.2 بوصة OLED، معجب Snapdragon 8 Gen 1، 12GB RAM، 512GB - الإبداع والعمل",
+      "price": "1099.99",
+      "available": true,
+      "stock": 8,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1723637152067-178a129bd36d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SHVhd2VpJTIwTWF0ZVBhZCUyMFBybyUyMDEzLjJ8ZW58MHx8MHx8fDA%3D",
+      "created": "2024-01-15T11:25:00Z",
+      "updated": "2024-01-15T11:25:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 119,
+    "fields": {
+      "category": 2,
+      "name": "Xiaomi Pad 6 Pro",
+      "slug": "xiaomi-pad-6-pro",
+      "description": "تابلت أداء عالي بشاشة 11 بوصة 144Hz، معجب Snapdragon 8+ Gen 1، 12GB RAM، 256GB - المتعة والإنتاجية",
+      "price": "599.99",
+      "available": true,
+      "stock": 14,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1542983414-09720523a670?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fFhpYW9taSUyMFBhZCUyMDYlMjBQcm98ZW58MHx8MHx8fDA%3D",
+      "created": "2024-01-15T11:30:00Z",
+      "updated": "2024-01-15T11:30:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 120,
+    "fields": {
+      "category": 5,
+      "name": "منظومة كمبيوتر صامتة Silent PC",
+      "slug": "silent-pc",
+      "description": "منظومة كمبيوتر صامتة للاستديو: معجب Intel i7-13700، 32GB RAM، 2TB SSD، كرت شاشة RTX 4060 - الأداء بدون ضوضاء",
+      "price": "1999.99",
+      "available": true,
+      "stock": 4,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1597958168639-3b82b8661e83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fCUyMiVEOSU4NSVEOSU4NiVEOCVCOCVEOSU4OCVEOSU4NSVEOCVBOSUyMCVEOSU4MyVEOSU4NSVEOCVBOCVEOSU4QSVEOSU4OCVEOCVBQSVEOCVCMSUyMCVEOCVCNSVEOCVBNyVEOSU4NSVEOCVBQSVEOCVBOSUyMFNpbGVudCUyMFBDfGVufDB8fDB8fHww",
+      "created": "2024-01-15T11:35:00Z",
+      "updated": "2024-01-15T11:35:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 121,
+    "fields": {
+      "category": 6,
+      "name": "Canon EOS R5",
+      "slug": "canon-eos-r5",
+      "description": "كاميرا احترافية ميرورلس بدقة 45 ميجابكسل، تصوير فيديو 8K، تثبيت صورة مدمج - للمحترفين",
+      "price": "3899.99",
+      "available": true,
+      "stock": 6,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1613235577937-9ac3eed992fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fENhbm9uJTIwRU9TJTIwUjV8ZW58MHx8MHx8fDA%3D",
+      "created": "2024-01-15T12:00:00Z",
+      "updated": "2024-01-15T12:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 122,
+    "fields": {
+      "category": 6,
+      "name": "Sony A7 IV",
+      "slug": "sony-a7-iv",
+      "description": "كاميرا ميرورلس كاملة الإطار، 33 ميجابكسل، تصوير فيديو 4K، أداء متميز في الإضاءة المنخفضة",
+      "price": "2499.99",
+      "available": true,
+      "stock": 8,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1692030179940-c65af6a0e6b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fFNvbnklMjBBNyUyMElWfGVufDB8fDB8fHww",
+      "created": "2024-01-15T12:05:00Z",
+      "updated": "2024-01-15T12:05:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 123,
+    "fields": {
+      "category": 6,
+      "name": "Nikon Z6 II",
+      "slug": "nikon-z6-ii",
+      "description": "كاميرا ميرورلس متعددة الاستخدامات، 24.5 ميجابكسل، تصوير متواصل 14 إطار/ثانية، فيديو 4K",
+      "price": "1999.99",
+      "available": true,
+      "stock": 7,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1672184817423-033ea69a8fdf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fE5pa29uJTIwWjYlMjBJSXxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2024-01-15T12:10:00Z",
+      "updated": "2024-01-15T12:10:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 124,
+    "fields": {
+      "category": 6,
+      "name": "Fujifilm X-T5",
+      "slug": "fujifilm-x-t5",
+      "description": "كاميرا ميرورلس بنظام APS-C، 40 ميجابكسل، تصميم كلاسيكي، ألوان Fujifilm المميزة",
+      "price": "1699.99",
+      "available": true,
+      "stock": 9,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1749016888524-967635aa2c6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEZ1amlmaWxtJTIwWCUyMFQ1fGVufDB8fDB8fHww",
+      "created": "2024-01-15T12:15:00Z",
+      "updated": "2024-01-15T12:15:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 125,
+    "fields": {
+      "category": 6,
+      "name": "Panasonic Lumix S5 II",
+      "slug": "panasonic-lumix-s5-ii",
+      "description": "كاميرا ميرورلس كاملة الإطار، 24.2 ميجابكسل، تثبيت صورة مزدوج، مثالية للفيديو",
+      "price": "1999.99",
+      "available": true,
+      "stock": 5,
+      "is_approved": true,
+      "image_url": "https://plus.unsplash.com/premium_photo-1711136677946-27ffc2a8cf7b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQzfHxQYW5hc29uaWMlMjBMdW1peCUyMFM1JTIwSUl8ZW58MHx8MHx8fDA%3D",
+      "created": "2024-01-15T12:20:00Z",
+      "updated": "2024-01-15T12:20:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 126,
+    "fields": {
+      "category": 6,
+      "name": "GoPro Hero 12 Black",
+      "slug": "gopro-hero-12-black",
+      "description": "كاميرا أكشن مقاومة للماء، فيديو 5.3K، ثبات صورة HyperSmooth 6.0، مثالية للمغامرات",
+      "price": "399.99",
+      "available": true,
+      "stock": 15,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1633118535439-9f4015a3810c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fEdvUHJvJTIwSGVybyUyMDEyJTIwQmxhY2slMjBjYW1lcmF8ZW58MHx8MHx8fDA%3D",
+      "created": "2024-01-15T12:25:00Z",
+      "updated": "2024-01-15T12:25:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 127,
+    "fields": {
+      "category": 6,
+      "name": "DJI Osmo Pocket 3",
+      "slug": "dji-osmo-pocket-3",
+      "description": "كاميرا جيب بثبات صورة مدمج، شاشة 2 بوصة، فيديو 4K/120fps، مثالية للفيديو اليومي",
+      "price": "669.99",
+      "available": true,
+      "stock": 12,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1703145204993-d1178bfc3f9f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8REpJJTIwT3NtbyUyMFBvY2tldCUyMDN8ZW58MHx8MHx8fDA%3D",
+      "created": "2024-01-15T12:30:00Z",
+      "updated": "2024-01-15T12:30:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 128,
+    "fields": {
+      "category": 6,
+      "name": "Sony ZV-1F",
+      "slug": "sony-zv-1f",
+      "description": "كاميرا Vlog مدمجة، عدسة 20mm واسعة، ميكروفون مدمج، مثالية للمدونين والمحتوى",
+      "price": "499.99",
+      "available": true,
+      "stock": 10,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1727826735542-f94728c820c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fFNvbnklMjBaViUyMDFGfGVufDB8fDB8fHww",
+      "created": "2024-01-15T12:35:00Z",
+      "updated": "2024-01-15T12:35:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 129,
+    "fields": {
+      "category": 6,
+      "name": "Canon PowerShot G7 X Mark III",
+      "slug": "canon-powershot-g7-x-mark-iii",
+      "description": "كاميرا مدمجة للمدونين، 20.1 ميجابكسل، بث مباشر",
+      "price": "749.99",
+      "available": true,
+      "stock": 8,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1549366359-23c135d82f08?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fENhbm9uJTIwUG93ZXJTaG90JTIwRzclMjBYJTIwTWFyayUyMElJSXxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2024-01-15T12:40:00Z",
+      "updated": "2024-01-15T12:40:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 130,
+    "fields": {
+      "category": 6,
+      "name": "Insta360 X3",
+      "slug": "insta360-x3",
+      "description": "كاميرا 360 درجة، فيديو 5.7K، مقاومة للماء، مثالية للتقاط اللحظات من كل الزوايا",
+      "price": "449.99",
+      "available": true,
+      "stock": 11,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1609004159066-9932829085ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE1fHxJbnN0YTM2MCUyMFgzfGVufDB8fDB8fHww",
+      "created": "2024-01-15T12:45:00Z",
+      "updated": "2024-01-15T12:45:00Z"
+    }
+  }
+]

@@ -1,0 +1,83 @@
+.social-auth-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.auth-separator {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    color: #6c757d;
+}
+
+.auth-separator::before,
+.auth-separator::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #dee2e6;
+}
+
+.auth-separator::before {
+    margin-right: 15px;
+}
+
+.auth-separator::after {
+    margin-left: 15px;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 20px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    min-width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-social:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-decoration: none;
+}
+
+.btn-facebook {
+    background: #1877F2;
+    color: white;
+}
+
+.btn-facebook:hover {
+    background: #166FE5;
+    color: white;
+}
+
+.btn-google {
+    background: white;
+    color: #757575;
+    border-color: #dadce0;
+}
+
+.btn-google:hover {
+    background: #f8f9fa;
+    border-color: #d2e3fc;
+    color: #757575;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{ block.super }} - help{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="text-center my-4">❓Help center</h1>
+    
+    <div class="accordion" id="helpAccordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#question1">
+                    ? How can I order
+                </button>
+            </h2>
+            <div id="question1" class="accordion-collapse collapse show" data-bs-parent="#helpAccordion">
+                <div class="accordion-body">
+                    . You can add products to the cart, then go to the payment page and complete the process
+                </div>
+                <div class="accordion-body">
+                    . If the previous steps do not work, try logging in or registering a new account
+                </div>
+                <div class="accordion-body">
+                    . Contact us on our social media sites if the problem persists
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question2">
+                    ? What is the Return policy
+                </button>
+            </h2>
+            <div id="question2" class="accordion-collapse collapse" data-bs-parent="#helpAccordion">
+                <div class="accordion-body">
+                    . You can return the product within 7 days of purchase under certain conditions
+                </div>
+                 <div class="accordion-body">
+                    . If you buy a product and want to return it, 17% of its price will be deducted for shipping costs
+                </div>
+            </div>
+        </div>
+        <!-- أضف المزيد من الأسئلة هنا -->
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,1056 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "iPhone 13 Pro",
+      "slug": "iphone-13-pro",
+      "description": "هاتف iPhone 13 Pro بشريحة A15 Bionic، وكاميرا متطورة، وشاشة Super Retina XDR.",
+      "price": "999.99",
+      "available": true,
+      "stock": 15,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1637496652486-99d500bcdd18?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aVBob25lJTIwMTMlMjBQcm98ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "name": "Samsung Galaxy S22",
+      "slug": "samsung-galaxy-s22",
+      "description": "هاتف Samsung Galaxy S22 بشاشة Dynamic AMOLED 2X، ومعالج Snapdragon 8 Gen 1.",
+      "price": "899.99",
+      "available": true,
+      "stock": 20,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1675827418567-8436eb692b5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fFNhbXN1bmclMjBHYWxheHklMjBTMjJ8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "category": 2,
+      "name": "Laptop Dell XPS 13",
+      "slug": "dell-xps-13",
+      "description": "لابتوب Dell XPS 13 بشاشة 13.4 بوصة، معالج Intel Core i7، وذاكرة 16GB RAM.",
+      "price": "1299.99",
+      "available": true,
+      "stock": 8,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1605041197572-1dcedff5655e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fExhcHRvcCUyMERlbGwlMjBYUFMlMjAxM3xlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "category": 2,
+      "name": "MacBook Pro M1",
+      "slug": "macbook-pro-m1",
+      "description": "لابتوب MacBook Pro بشريحة M1، شاشة 13 بوصة، وذاكرة 16GB RAM.",
+      "price": "1499.99",
+      "available": true,
+      "stock": 12,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1647805256812-ccb927cf1f67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fE1hY0Jvb2slMjBQcm8lMjBNMXxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "category": 3,
+      "name": "Sony WH-1000XM4",
+      "slug": "sony-wh-1000xm4",
+      "description": "سماعات رأس لاسلكية من Sony مع إلغاء ضجيج متطور وجودة صوت عالية.",
+      "price": "349.99",
+      "available": true,
+      "stock": 25,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1619032084771-cb4e65810cd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fFNvbnklMjBXSCUyMDEwMDBYTTR8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "category": 3,
+      "name": "AirPods Pro",
+      "slug": "airpods-pro",
+      "description": "سماعات AirPods Pro مع إلغاء ضجيج فعال وتصميم مريح.",
+      "price": "249.99",
+      "available": true,
+      "stock": 30,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1659943063471-2fcc8b45edd2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fEFpclBvZHMlMjBQcm98ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "category": 4,
+      "name": "Apple Watch Series 7",
+      "slug": "apple-watch-series-7",
+      "description": "ساعة Apple Watch Series 7 بشاشة أكبر ومقاومة للماء.",
+      "price": "399.99",
+      "available": true,
+      "stock": 18,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1640943729028-78c28980e272?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fEFwcGxlJTIwV2F0Y2glMjBTZXJpZXMlMjA3fGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "category": 4,
+      "name": "Samsung Galaxy Watch 4",
+      "slug": "samsung-galaxy-watch-4",
+      "description": "ساعة Samsung Galaxy Watch 4 بنظام Wear OS وتتبع صحي متقدم.",
+      "price": "299.99",
+      "available": true,
+      "stock": 22,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1549482199-bc1ca6f58502?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fFNhbXN1bmclMjBHYWxheHklMjBXYXRjaCUyMDR8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "category": 1,
+      "name": "iPhone 15 Pro Max",
+      "slug": "iphone-15-pro-max",
+      "description": "هاتف iPhone 15 Pro Max بشريحة A17 Pro، كاميرا 48MP، وشاشة Dynamic Island.",
+      "price": "1199.99",
+      "available": true,
+      "stock": 12,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1730614865328-a11de9157ab8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzd8fGlQaG9uZSUyMDE1JTIwUHJvJTIwTWF4fGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "category": 1,
+      "name": "Samsung Galaxy S23 Ultra",
+      "slug": "samsung-galaxy-s23-ultra",
+      "description": "هاتف Samsung Galaxy S23 Ultra بشاشة 6.8 بوصة، قلم S-Pen، وكاميرا 200MP.",
+      "price": "1199.99",
+      "available": true,
+      "stock": 15,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1690788056245-025bd89708a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHNhbXN1bmclMjBzMjMlMjB1bHRyYXxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+      "category": 1,
+      "name": "Google Pixel 8 Pro",
+      "slug": "google-pixel-8-pro",
+      "description": "هاتف Google Pixel 8 Pro بمعالج Tensor G3، كاميرا متطورة، وميزات الذكاء الاصطناعي.",
+      "price": "999.99",
+      "available": true,
+      "stock": 10,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1706412703794-d944cd3625b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8R29vZ2xlJTIwUGl4ZWwlMjA4JTIwUHJvfGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+      "category": 1,
+      "name": "Xiaomi 13 Pro",
+      "slug": "xiaomi-13-pro",
+      "description": "هاتف Xiaomi 13 Pro بشاشة AMOLED 120Hz، كاميرا Leica، وشحن 120W.",
+      "price": "899.99",
+      "available": true,
+      "stock": 18,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1655356392708-c675781f1748?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fEh1YXdlaSUyMFA2MCUyMFByb3xlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+      "category": 1,
+      "name": "OnePlus 11",
+      "slug": "oneplus-11",
+      "description": "هاتف OnePlus 11 بمعالج Snapdragon 8 Gen 2، شاشة 120Hz، وشحن سريع 100W.",
+      "price": "799.99",
+      "available": true,
+      "stock": 14,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1641815217625-cccb222225c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b25lcGx1cyUyMDExfGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+      "category": 1,
+      "name": "Huawei P60 Pro",
+      "slug": "huawei-p60-pro",
+      "description": "هاتف Huawei P60 Pro بكاميرا متغيرة الإضاءة، شاشة OLED، وتصميم فاخر.",
+      "price": "1099.99",
+      "available": true,
+      "stock": 8,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1728897444991-c8f157c43494?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fEh1YXdlaSUyMFA2MCUyMFByb3xlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+      "category": 1,
+      "name": "Nothing Phone (2)",
+      "slug": "nothing-phone-2",
+      "description": "هاتف Nothing Phone (2) بتصميم شفاف فريد، أداء قوي، وواجهة Nothing OS.",
+      "price": "699.99",
+      "available": true,
+      "stock": 20,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1711129250487-42c9078effe6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Tm90aGluZyUyMFBob25lJTIwKDIpfGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+      "category": 1,
+      "name": "ASUS ROG Phone 7",
+      "slug": "asus-rog-phone-7",
+      "description": "هاتف ASUS ROG Phone 7 المخصص للألعاب بشاشة 165Hz، تبريد نشط، وأداء Extreme.",
+      "price": "999.99",
+      "available": true,
+      "stock": 6,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1755179772124-6614b289b3bb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQzfHxBU1VTJTIwUk9HJTIwUGhvbmUlMjA3fGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+      "category": 1,
+      "name": "Motorola Edge 40 Pro",
+      "slug": "motorola-edge-40-pro",
+      "description": "هاتف Motorola Edge 40 Pro بشاشة pOLED، كامiera 50MP، وشحن لاسلكي.",
+      "price": "899.99",
+      "available": true,
+      "stock": 11,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1746017354751-aac233494eea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fE1vdG9yb2xhJTIwRWRnZSUyMDQwJTIwUHJvfGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+      "category": 1,
+      "name": "Oppo Find X6 Pro",
+      "slug": "oppo-find-x6-pro",
+      "description": "هاتف Oppo Find X6 Pro بكاميرا Hasselblad، شاشة LTPO، وتصميم premium.",
+      "price": "1199.99",
+      "available": true,
+      "stock": 7,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1608373721627-80a5a002c569?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fE9wcG8lMjBGaW5kJTIwWDYlMjBQcm8lMjBwaG9uZXxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+      "category": 1,
+      "name": "Vivo X90 Pro+",
+      "slug": "vivo-x90-pro-plus",
+      "description": "هاتف Vivo X90 Pro+ بكامiera ZEISS، معالج Snapdragon 8 Gen 2، وشاشة E6 AMOLED.",
+      "price": "1099.99",
+      "available": true,
+      "stock": 9,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1625204394283-f1b123b07d17?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Vml2byUyMFg5MCUyMFBybyUyQiUyMHBob25lfGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+      "category": 1,
+      "name": "Realme GT 3",
+      "slug": "realme-gt-3",
+      "description": "هاتف Realme GT 3 بشحن 240W، شاشة 144Hz، وأداء gaming متميز.",
+      "price": "749.99",
+      "available": true,
+      "stock": 16,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1519336305162-4b6ed6b6fc83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIyfHxzbWFydHBob25lfGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 21,
+    "fields": {
+      "category": 1,
+      "name": "ZTE Nubia Z50 Ultra",
+      "slug": "zte-nubia-z50-ultra",
+      "description": "هاتف ZTE Nubia Z50 Ultra بشاشة under-display camera، كامiera 64MP، وتصميم bezel-less.",
+      "price": "799.99",
+      "available": true,
+      "stock": 13,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1510270489373-1c3965af25d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fFpURSUyME51YmlhJTIwWjUwJTIwVWx0cmElMjBwaG9uZXxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 22,
+    "fields": {
+      "category": 1,
+      "name": "Honor Magic 5 Pro",
+      "slug": "honor-magic-5-pro",
+      "description": "هاتف Honor Magic 5 Pro بكامiera Falcon Capture، شاشة LTPO، وبطارية طويلة الأمد.",
+      "price": "999.99",
+      "available": true,
+      "stock": 10,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1702097034591-198838488ba7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fEhvbm9yJTIwTWFnaWMlMjA1JTIwUHJvJTIwcGhvbmV8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 23,
+    "fields": {
+      "category": 1,
+      "name": "Sony Xperia 1 V",
+      "slug": "sony-xperia-1-v",
+      "description": "هاتف Sony Xperia 1 V بكامiera Alpha للهواتف، شاشة 4K HDR، ومخصص للمحتوى الإبداعي.",
+      "price": "1399.99",
+      "available": true,
+      "stock": 5,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1640936343842-268f9d87e764?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE1fHxzbWFydHBob25lfGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 24,
+    "fields": {
+      "category": 1,
+      "name": "iPhone 14 Plus",
+      "slug": "iphone-14-plus",
+      "description": "هاتف iPhone 14 Plus بشاشة 6.7 بوصة، بطارية طويلة، وأداء A15 Bionic.",
+      "price": "899.99",
+      "available": true,
+      "stock": 22,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1632518193213-b34d7731376b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fGlQaG9uZSUyMDE0JTIwUGx1c3xlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 25,
+    "fields": {
+      "category": 1,
+      "name": "Samsung Galaxy Z Fold 5",
+      "slug": "samsung-galaxy-z-fold-5",
+      "description": "هاتف Samsung Galaxy Z Fold 5 القابل للطي بشاشة داخلية 7.6 بوصة، ومتعدد المهام.",
+      "price": "1799.99",
+      "available": true,
+      "stock": 4,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1623950015175-ec6f6e28d183?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFNhbXN1bmclMjBHYWxheHklMjBaJTIwRm9sZCUyMDV8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 26,
+    "fields": {
+      "category": 1,
+      "name": "Google Pixel 7a",
+      "slug": "google-pixel-7a",
+      "description": "هاتف Google Pixel 7a بميزات الذكاء الاصطناعي، كامiera متميزة، وسعر مناسب.",
+      "price": "499.99",
+      "available": true,
+      "stock": 25,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1636373873339-721de2167b29?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fEdvb2dsZSUyMFBpeGVsJTIwN2F8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 27,
+    "fields": {
+      "category": 1,
+      "name": "Xiaomi Redmi Note 12 Pro",
+      "slug": "xiaomi-redmi-note-12-pro",
+      "description": "هاتف Xiaomi Redmi Note 12 Pro بشاشة AMOLED، كامiera 108MP، وقيمة مذهلة.",
+      "price": "399.99",
+      "available": true,
+      "stock": 30,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1752218804012-3e7db92274ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjcwfHxYaWFvbWklMjBSZWRtaSUyME5vdGUlMjAxMiUyMFByb3xlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 28,
+    "fields": {
+      "category": 1,
+      "name": "OnePlus Nord 3",
+      "slug": "oneplus-nord-3",
+      "description": "هاتف OnePlus Nord 3 بأداء Flagship، شاشة 120Hz، وسعر mid-range.",
+      "price": "499.99",
+      "available": true,
+      "stock": 28,
+      "is_approved": true,
+      "image_url": "https://plus.unsplash.com/premium_photo-1681666713751-1cc81b814b91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fG1vYmlsZSUyMHBob25lfGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 29,
+    "fields": {
+      "category": 2,
+      "name": "MacBook Pro 16-inch M2 Max",
+      "slug": "macbook-pro-16-m2-max",
+      "description": "لابتوب MacBook Pro 16 بمعالج M2 Max، شاشة Liquid Retina XDR، وأداء محترف.",
+      "price": "3499.99",
+      "available": true,
+      "stock": 3,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1659135890084-930731031f40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fE1hY0Jvb2slMjBQcm8lMjAxNiUyMGluY2glMjBNMiUyME1heHxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 30,
+    "fields": {
+      "category": 2,
+      "name": "Dell XPS 15 9530",
+      "slug": "dell-xps-15-9530",
+      "description": "لابتوب Dell XPS 15 بشاشة 15.6 بوصة OLED، معالج Intel Core i9، وRTX 4070.",
+      "price": "2499.99",
+      "available": true,
+      "stock": 6,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1684127987312-43455fd95925?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fERlbGwlMjBYUFMlMjAxNSUyMDk1MzB8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 31,
+    "fields": {
+      "category": 2,
+      "name": "HP Spectre x360 14",
+      "slug": "hp-spectre-x360-14",
+      "description": "لابتوب HP Spectre x360 14 قابل للتحويل، شاشة OLED، وتصميم gem-cut.",
+      "price": "1699.99",
+      "available": true,
+      "stock": 8,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1588476376802-9e96f9d967f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fEhQJTIwU3BlY3RyZSUyMHgzNjAlMjAxNCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 32,
+    "fields": {
+      "category": 2,
+      "name": "Lenovo ThinkPad X1 Carbon Gen 10",
+      "slug": "lenovo-thinkpad-x1-carbon-10",
+      "description": "لابتوب Lenovo ThinkPad X1 Carbon للاعمال، خفيف الوزن، ومتين.",
+      "price": "1899.99",
+      "available": true,
+      "stock": 7,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1615750173609-2fbf12fd1d2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fExlbm92byUyMFRoaW5rUGFkJTIwWDElMjBDYXJib24lMjBHZW4lMjAxMCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 33,
+    "fields": {
+      "category": 2,
+      "name": "ASUS ROG Zephyrus G14",
+      "slug": "asus-rog-zephyrus-g14",
+      "description": "لابتوب ASUS ROG Zephyrus G14 للألعاب، معالج Ryzen 9، وشاشة 120Hz.",
+      "price": "1599.99",
+      "available": true,
+      "stock": 5,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1634947096506-6d9f114cf64e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIyfHxBU1VTJTIwUk9HJTIwWmVwaHlydXMlMjBHMTQlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 34,
+    "fields": {
+      "category": 2,
+      "name": "Microsoft Surface Laptop 5",
+      "slug": "microsoft-surface-laptop-5",
+      "description": "لابتوب Microsoft Surface Laptop 5 بشاشة PixelSense، تصميم أنيق، وأداء سلس.",
+      "price": "1299.99",
+      "available": true,
+      "stock": 9,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1633113211821-6ac9c3d160a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fE1pY3Jvc29mdCUyMFN1cmZhY2UlMjBMYXB0b3AlMjA1fGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 35,
+    "fields": {
+      "category": 2,
+      "name": "Acer Predator Helios 300",
+      "slug": "acer-predator-helios-300",
+      "description": "لابتوب Acer Predator Helios 300 للألعاب، معالج i7، وشاشة 144Hz.",
+      "price": "1499.99",
+      "available": true,
+      "stock": 4,
+      "is_approved": true,
+      "image_url": "https://plus.unsplash.com/premium_photo-1733317312273-a37561012283?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fEFjZXIlMjBQcmVkYXRvciUyMEhlbGlvcyUyMDMwMCUyMGxhYnRvcHxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 36,
+    "fields": {
+      "category": 2,
+      "name": "Razer Blade 15",
+      "slug": "razer-blade-15",
+      "description": "لابتوب Razer Blade 15 للألعاب، تصميم معدني، وأداء قوي.",
+      "price": "2299.99",
+      "available": true,
+      "stock": 3,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGxhcHRvcFJhemVyJTIwQmxhZGUlMjAxNXxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 37,
+    "fields": {
+      "category": 2,
+      "name": "LG Gram 17",
+      "slug": "lg-gram-17",
+      "description": "لابتوب LG Gram 17 خفيف الوزن، شاشة 17 بوصة، وبطارية طويلة.",
+      "price": "1799.99",
+      "available": true,
+      "stock": 6,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1662831029660-6c5a89e65ffb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYxfHxsYXB0b3BMRyUyMEdyYW0lMjAxN3xlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 38,
+    "fields": {
+      "category": 2,
+      "name": "MSI Creator Z16",
+      "slug": "msi-creator-z16",
+      "description": "لابتوب MSI Creator Z16 للمبدعين، شاشة 4K، وألوان دقيقة.",
+      "price": "2699.99",
+      "available": true,
+      "stock": 2,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1629491697442-7d67fc25d897?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxhcHRvcCUyME1TSSUyMENyZWF0b3IlMjBaMTZ8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 39,
+    "fields": {
+      "category": 2,
+      "name": "Samsung Galaxy Book3 Ultra",
+      "slug": "samsung-galaxy-book3-ultra",
+      "description": "لابتوب Samsung Galaxy Book3 Ultra، معالج i9، وشاشة Dynamic AMOLED 2X.",
+      "price": "2399.99",
+      "available": true,
+      "stock": 4,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1654852360714-3899af1f5be7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fFNhbXN1bmclMjBHYWxheHklMjBCb29rMyUyMFVsdHJhfGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 40,
+    "fields": {
+      "category": 2,
+      "name": "Framework Laptop 13",
+      "slug": "framework-laptop-13",
+      "description": "لابتوب Framework Laptop 13 قابل للترقية، صديق للبيئة، وتصميم modular.",
+      "price": "1049.99",
+      "available": true,
+      "stock": 7,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1619532550465-ad4dc9bd680a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RnJhbWV3b3JrJTIwTGFwdG9wJTIwMTN8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 41,
+    "fields": {
+      "category": 2,
+      "name": "Apple MacBook Air 15-inch M2",
+      "slug": "macbook-air-15-m2",
+      "description": "لابتوب MacBook Air 15 بمعالج M2، شاشة Liquid Retina، وتصميم ultrathin.",
+      "price": "1299.99",
+      "available": true,
+      "stock": 12,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1657770295015-79b98a3e37ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fEFwcGxlJTIwTWFjQm9vayUyMEFpciUyMDE1JTIwaW5jaCUyME0yfGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 42,
+    "fields": {
+      "category": 2,
+      "name": "Dell Alienware x14 R2",
+      "slug": "dell-alienware-x14-r2",
+      "description": "لابتوب Dell Alienware x14 R2 للألعاب، تصميم slim، وأداء high-end.",
+      "price": "1999.99",
+      "available": true,
+      "stock": 3,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1630701067511-ab9d1725bba2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RGVsbCUyMEFsaWVud2FyZSUyMHgxNCUyMFIyfGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 43,
+    "fields": {
+      "category": 2,
+      "name": "HP Omen 16",
+      "slug": "hp-omen-16",
+      "description": "لابتوب HP Omen 16 للألعاب، شاشة 165Hz، وتبريد متقدم.",
+      "price": "1499.99",
+      "available": true,
+      "stock": 5,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1658312226988-16bb2338165a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGxhcHRvcCUyMEhQJTIwT21lbiUyMDE2fGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 44,
+    "fields": {
+      "category": 2,
+      "name": "Lenovo Legion 5 Pro",
+      "slug": "lenovo-legion-5-pro",
+      "description": "لابتوب Lenovo Legion 5 Pro للألعاب، شاشة 16 بوصة 165Hz، وأداء QHD.",
+      "price": "1599.99",
+      "available": true,
+      "stock": 6,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1593640495371-1f7ddf3dedf6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGxhcHRvcCUyMExlbm92byUyMExlZ2lvbiUyMDUlMjBQcm98ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 45,
+    "fields": {
+      "category": 2,
+      "name": "ASUS TUF Gaming A15",
+      "slug": "asus-tuf-gaming-a15",
+      "description": "لابتوب ASUS TUF Gaming A15، متين، أداء gaming، وسعر معقول.",
+      "price": "1199.99",
+      "available": true,
+      "stock": 8,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1603532231963-6372e47bbc53?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxhcHRvcCUyMEFTVVMlMjBUVUYlMjBHYW1pbmclMjBBMTV8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 46,
+    "fields": {
+      "category": 2,
+      "name": "Microsoft Surface Pro 9",
+      "slug": "microsoft-surface-pro-9",
+      "description": "Microsoft Surface Pro 9، 2-in-1، معالج 12th Gen، وتصميم versatile.",
+      "price": "1299.99",
+      "available": true,
+      "stock": 7,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1621570359764-f297bc0d471b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fE1pY3Jvc29mdCUyMFN1cmZhY2UlMjBQcm8lMjA5fGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 47,
+    "fields": {
+      "category": 2,
+      "name": "Acer Swift 3",
+      "slug": "acer-swift-3",
+      "description": "لابتوب Acer Swift 3 خفيف الوزن، أداء جيد، وبطارية طويلة.",
+      "price": "699.99",
+      "available": true,
+      "stock": 15,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1629751372750-3ddb8f8bfd0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fEFjZXIlMjBTd2lmdCUyMDN8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 48,
+    "fields": {
+      "category": 2,
+      "name": "Dell Inspiron 16 Plus",
+      "slug": "dell-inspiron-16-plus",
+      "description": "لابتوب Dell Inspiron 16 Plus، شاشة 3K، أداء creatore، وتصميم modern.",
+      "price": "1099.99",
+      "available": true,
+      "stock": 9,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1632488427521-bdced6162a21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fERlbGwlMjBJbnNwaXJvbiUyMDE2JTIwUGx1c3xlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 49,
+    "fields": {
+      "category": 4,
+      "name": "Apple Watch Ultra 2",
+      "slug": "apple-watch-ultra-2",
+      "description": "ساعة Apple Watch Ultra 2 للمغامرين، شاشة Always-On، ومقاومة للماء 100m.",
+      "price": "799.99",
+      "available": true,
+      "stock": 8,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1600948891299-30a7f822e6d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fEFwcGxlJTIwV2F0Y2glMjBVbHRyYSUyMDJ8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 50,
+    "fields": {
+      "category": 4,
+      "name": "Samsung Galaxy Watch6 Classic",
+      "slug": "samsung-galaxy-watch6-classic",
+      "description": "ساعة Samsung Galaxy Watch6 Classic، bezel دوار، نظام Wear OS، وتتبع صحي.",
+      "price": "369.99",
+      "available": true,
+      "stock": 12,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1731341400870-43d2d353031c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fFNhbXN1bmclMjBHYWxheHklMjBXYXRjaDYlMjBDbGFzc2ljfGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 51,
+    "fields": {
+      "category": 4,
+      "name": "Garmin Epix Gen 2",
+      "slug": "garmin-epix-gen2",
+      "description": "ساعة Garmin Epix Gen 2، شاشة AMOLED، GPS متقدم، وبطارية 16 يوم.",
+      "price": "899.99",
+      "available": true,
+      "stock": 5,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1597421920418-d52a25671451?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTl8fEdhcm1pbiUyMEVwaXglMjBHZW4lMjAyJTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 52,
+    "fields": {
+      "category": 4,
+      "name": "Fitbit Sense 2",
+      "slug": "fitbit-sense-2",
+      "description": "ساعة Fitbit Sense 2، تتبع الإجهاد، ECG، وتقنيات wellness.",
+      "price": "299.99",
+      "available": true,
+      "stock": 18,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1519315910113-861dcfbfb9cf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Rml0Yml0JTIwU2Vuc2UlMjAyJTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 53,
+    "fields": {
+      "category": 4,
+      "name": "Amazfit GTR 4",
+      "slug": "amazfit-gtr-4",
+      "description": "ساعة Amazfit GTR 4، شاشة AMOLED، بطارية 14 يوم، وسعر مذهل.",
+      "price": "199.99",
+      "available": true,
+      "stock": 20,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1637586509984-28f57a2e0ebc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzd8fEFtYXpmaXQlMjBHVFIlMjA0JTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 54,
+    "fields": {
+      "category": 4,
+      "name": "Huawei Watch GT 4",
+      "slug": "huawei-watch-gt-4",
+      "description": "ساعة Huawei Watch GT 4، تصميم فاخر، بطارية 2 أسبوع، وتتبع صحي دقيق.",
+      "price": "249.99",
+      "available": true,
+      "stock": 15,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1693728910775-52d12398d2fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8SHVhd2VpJTIwV2F0Y2glMjBHVCUyMDR8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 55,
+    "fields": {
+      "category": 4,
+      "name": "Garmin Forerunner 955",
+      "slug": "garmin-forerunner-955",
+      "description": "ساعة Garmin Forerunner 955 للرياضيين، GPS متقدم، وتقنيات training.",
+      "price": "499.99",
+      "available": true,
+      "stock": 7,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1589553579559-c266d0f6a384?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fEdhcm1pbiUyMEZvcmVydW5uZXIlMjA5NTUlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 56,
+    "fields": {
+      "category": 4,
+      "name": "Fossil Gen 6 Wellness",
+      "slug": "fossil-gen-6-wellness",
+      "description": "ساعة Fossil Gen 6 Wellness، تصميم كلاسيكي، Wear OS، وميزات صحية.",
+      "price": "299.99",
+      "available": true,
+      "stock": 10,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1738173449255-340846ee56a9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fEZvc3NpbCUyMEdlbiUyMDYlMjBXZWxsbmVzcyUyMHdhdGNofGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 57,
+    "fields": {
+      "category": 4,
+      "name": "Withings ScanWatch Horizon",
+      "slug": "withings-scanwatch-horizon",
+      "description": "ساعة Withings ScanWatch Horizon، تتبع ECG، oxygen blood، وتصميم أنيق.",
+      "price": "349.99",
+      "available": true,
+      "stock": 6,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1581677996915-0bec0bb3a1a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8V2l0aGluZ3MlMjBTY2FuV2F0Y2glMjBIb3Jpem9uJTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 58,
+    "fields": {
+      "category": 4,
+      "name": "Suunto 9 Peak Pro",
+      "slug": "suunto-9-peak-pro",
+      "description": "ساعة Suunto 9 Peak Pro للمغامرات القاسية، GPS دقيق، ومتانة عالية.",
+      "price": "549.99",
+      "available": true,
+      "stock": 4,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1495856458515-0637185db551?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHdhdGNofGVufDB8fDB8fHww",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 59,
+    "fields": {
+      "category": 3,
+      "name": "Sony WH-1000XM5",
+      "slug": "sony-wh-1000xm5",
+      "description": "سماعات Sony WH-1000XM5، إلغاء ضجيج متطور، جودة صوت ممتازة، وراحة طويلة.",
+      "price": "399.99",
+      "available": true,
+      "stock": 25,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1556452041-0df5eaa315f8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzl8fFNvbnklMjBXSCUyMDEwMDBYTTV8ZW58MHx8MHx8fDA%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 60,
+    "fields": {
+      "category": 3,
+      "name": "Bose QuietComfort Ultra",
+      "slug": "bose-quietcomfort-ultra",
+      "description": "سماعات Bose QuietComfort Ultra، إلغاء ضجيج مذهل، راحة فائقة، وصوت غامر.",
+      "price": "429.99",
+      "available": true,
+      "stock": 18,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1560718217-69193acc0713?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fEJvc2UlMjBRdWlldENvbWZvcnQlMjBVbHRyYSUyMGhlYWRwaG9uZXxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 61,
+    "fields": {
+      "category": 3,
+      "name": "Apple AirPods Max",
+      "slug": "apple-airpods-max",
+      "description": "سماعات Apple AirPods Max، تصميم premium، صوت Spatial Audio، ودمج مع ecosystem.",
+      "price": "549.99",
+      "available": true,
+      "stock": 12,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1641961924002-913bd679ee1e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fEFwcGxlJTIwQWlyUG9kcyUyME1heHxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 62,
+    "fields": {
+      "category": 3,
+      "name": "Sennheiser Momentum 4",
+      "slug": "sennheiser-momentum-4",
+      "description": "سماعات Sennheiser Momentum 4، جودة صوت رائعة، بطارية 60 ساعة، وتصميم أنيق.",
+      "price": "349.99",
+      "available": true,
+      "stock": 11,
+      "is_approved": true,
+      "image_url": "https://images.unsplash.com/photo-1527283308122-41ee35be6195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8U2VubmhlaXNlciUyME1vbWVudHVtJTIwNCUyMGhlYWRwaG9uZXxlbnwwfHwwfHx8MA%3D%3D",
+      "created": "2025-08-31T13:56:00Z",
+      "updated": "2024-08-31T13:57:00Z"
+    }
+  }
+]
