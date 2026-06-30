@@ -14,7 +14,7 @@ class Order(models.Model):
         ('Delevered' , 'Delevered') ,   
         ('Cancelled' , 'Cancelled') ,       
     ) 
-    user = models.ForeignKey(settings.AUTH_USER_MODEL , on_delete = models.CASCADE , related_name = 'oreder')
+    user = models.ForeignKey(settings.AUTH_USER_MODEL , on_delete = models.CASCADE , related_name = 'order')
     first_name = models.CharField(max_length = 50 , verbose_name = "first name")
     last_name = models.CharField(max_length = 50 , verbose_name = "last name")
     email = models.EmailField(verbose_name = "E-mail")
